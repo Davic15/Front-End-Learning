@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #b6a996;
+    background: url("../images/hobart.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+}
+
+#content {
+    background-color: #fff;
+    border: 3px double #31373f;
+    color: #31373f;
+    display: inline-block;
+    padding: 30px 50px;
+    margin: 20px auto 50px auto;
+    max-width: 580px;
+    min-height: 4em;
+    overflow: auto;
+    text-align: center;
+}
+
+h1, h2 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h1 {
+    width: 278px;
+    height: 112px;
+    margin: 0 auto 0 auto;
+    padding-top: 40px;
+    background: url("../images/elderflower-logo.png") no-repeat bottom center;
+}
+
+h2 {
+    width: 286px;
+    height: 18px;
+    margin: 0 auto 20px auto;
+    background: url("../images/custom-sign.png") no-repeat center center;
+}
+
+#title {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#cost, .action {
+    background-color: #f84c53;
+    color: #fff;
+    width: auto;
+    height: 1em;
+    padding: 0.5em 0.75em;
+    float: right;
+}
+
+#cost {
+    position: relative;
+    top: 1em;
+    right: 2em;
+}
+
+.action {
+    position: relative;
+    top: 1.3em;
+    right: -2.3em;
+}
+
+#note {
+    
+}
