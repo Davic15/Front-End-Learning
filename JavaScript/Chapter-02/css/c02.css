@@ -75,5 +75,75 @@ h2 {
 }
 
 #note {
-    
+    background-color: #31373f;
+    border-radius: 0.5em;
+    color: #e3bb5a;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+a {
+    color: #e3bb5a;
+    text-decoration: none;
+}
+
+.true, .false {
+    background: url("../images/tick-cross.png");
+    display: block;
+    float: right;
+    height: 25px;
+    width: 25px;
+}
+.false {
+    background-position: 0 -25px;
+}
+
+.message {
+    font-weight: bold;
+    line-height: 1.5em;
+    height: 2em;
+    display: block;
+    clear: left;
+    min-width: 10em;
+}
+
+.message span {
+    font-weight: normal;
+}
+
+.number {
+    text-align: left;
+}
+
+table {
+    margin: 20px 100px 0 100px;
+}
+
+tr td:first-child {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #fff;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+body:before {
+    top: 0;
+}
+
+body:after {
+    bottom: 0;
+}
+
+body {
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
 }
