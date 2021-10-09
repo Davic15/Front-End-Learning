@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>JavaScript &amp; jQuery - Chapter 5: Document Object Model - Node List</title>
+        <title>JavaScript &amp; jQuery - Chapter 5: Document Object Model - Inner Text &amp; Text Content</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <style>
+            /*
+                This page hides the <em> elements to demostrate difference between innerText and textContent
+            */
+            em {
+                display: none;
+            }
+        </style>
     </head>
     <body>
         <div id="page">
@@ -15,7 +23,8 @@
                 <li id="three" class="hot">honey</li>
                 <li id="four">balsamic vinegar</li>
             </ul>
+            <div id="scriptResults"></div>
         </div>
-        <script src="js/Example-06-Node-List.js"></script>
+        <script src="js/Example-10-Inner-Text-Text-Content.js"></script>
     </body>
 </html>
