@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Example - 02 aframe</title>
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+    </head>
+    <body>
+        <a-scene physics>
+            <a-box position="-1 4 -3" rotation="0 45 0" color="#4cc3d9" dynamic-body></a-box>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7bc8a4" static-body></a-plane>
+            <a-sky color="#ececec"></a-sky>
+        </a-scene>
+    </body>
+</html>
