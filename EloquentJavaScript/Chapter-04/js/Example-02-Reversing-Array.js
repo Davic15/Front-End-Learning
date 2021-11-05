@@ -20,6 +20,7 @@ console.log(reverseArray(["A", "B", "C"]));
 
 let array = [4,3,7,8,1,3,10];
 console.log(reverseArray(array));
+
 let arrayValue = [1, 2, 3, 4, 5];
 reverseArrayInPlace(arrayValue);
 console.log(arrayValue);
